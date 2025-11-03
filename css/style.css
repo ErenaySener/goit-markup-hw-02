@@ -70,7 +70,7 @@ body {
 
 .hero-title {
   background-color: var(--bg-color);
-  color: #fff;
+  color: var(--surface);
   padding: 200px 300px;
   display: block;
   font-weight: 700;
@@ -79,7 +79,7 @@ body {
 }
 
 .button {
-  color: #fff;
+  color: var(--surface);
   background-color: #4d5ae5;
   padding: 16px 32px;
   cursor: pointer;
@@ -92,7 +92,7 @@ body {
 .button:hover,
 .button:focus {
   background-color: var(--button-bg-hover);
-  color: #fff;
+  color: var(--surface);
   outline: none;
 }
 
