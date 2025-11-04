@@ -2,7 +2,7 @@
   --BMR: #434443; /* baskın metin rengi */
   --bg-color: #2e2f42; /* başlık rengi ve tüm arka plan rankleri*/
   --logo-color: #4e5ae5; /* logo-web rengi*/
-  --hover-focus-color: #00f;
+  --hover-focus-color: #404bbf;
   --surface: #fff;
   --button-bg-hover: #404bbf;
 }
@@ -41,7 +41,6 @@ body {
   padding: 0;
 }
 
-.links a,
 .top-line a,
 .contact a {
   color: var(--bg-color);
@@ -49,8 +48,6 @@ body {
   font-weight: 500;
 }
 
-.links a:hover,
-.links a:focus,
 .top-line a:hover,
 .top-line a:focus,
 .contact a:hover,
@@ -66,6 +63,7 @@ body {
 
 .hero {
   text-align: center;
+  background-color: var(--bg-color);
 }
 
 .hero-title {
@@ -105,14 +103,6 @@ body {
   color: inherit;
 }
 
-.person-name:hover,
-.person-name:focus,
-.role:hover,
-.role:focus {
-  color: var(--hover-focus-color);
-  outline: none;
-}
-
 .portfolio-item {
   list-style: none;
   margin: 0;
@@ -124,33 +114,21 @@ body {
   color: inherit;
 }
 
-.portfolio-item-title:focus,
-.portfolio-item-title:hover,
-.portfolio-item-text:hover,
-.portfolio-item-text:focus {
-  color: var(--hover-focus-color);
-  outline: none;
-}
-
 .logo-footer {
   color: #f4f4fd;
   text-decoration: none;
   font-weight: 700;
   line-height: 1.2;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.03em;
 }
-.logo-footer:hover,
-.logo-footer:focus,
-.logo-footer-web:hover,
-.logo-footer-web:focus {
-  color: var(--hover-focus-color);
-  outline: none;
-}
+
 .footer-all {
   background-color: var(--bg-color);
   padding: 100px 200px;
   display: block;
   font-weight: 700;
-  border-radius: 6px;
 }
 
 .footer-text {
@@ -158,4 +136,39 @@ body {
   text-align: left;
   line-height: 1.5;
   margin: 0;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  color: var(--bg-color);
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--bg-color);
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--bg-color);
+}
+
+.team img {
+  width: 264px;
+  height: 260px;
+}
+
+.portfolio-item img {
+  width: 360px;
+  height: 300px;
 }
